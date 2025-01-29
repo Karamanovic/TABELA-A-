@@ -95,3 +95,32 @@ input, button {
 input:focus, button:hover {
     background-color: #555555; /* Slightly lighter gray */
 }
+
+/* Arrow-Up Button */
+#arrow-up {
+    position: fixed; /* Fixed position to make it float */
+    bottom: 60px; /* Adjust to sit above the footer */
+    right: 20px; /* Position from the right */
+    width: 48px; /* Set the size of the icon */
+    height: 48px;
+    cursor: pointer;
+    opacity: 0; /* Start hidden */
+    visibility: hidden; /* Prevent it from taking up space when hidden */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition for appearance */
+    z-index: 1001; /* Ensure it appears above the footer */
+    background: transparent; /* Make the background transparent */
+    border-radius: 50%; /* Optional: Makes the button circular */
+    border: 2px solid white; /* Remove any border */
+    background-color: white;
+  }
+  
+  /* Show the button when active */
+  #arrow-up.show {
+    opacity: 0.8;
+    visibility: visible;
+  }
+  
+  /* On hover, increase visibility */
+  #arrow-up:hover {
+    opacity: 1; /* Fully visible on hover */
+  }
