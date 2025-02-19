@@ -43,24 +43,25 @@ body {
 .content-table tbody tr.dobro {
     font-weight: bold;
     color: #4CAF50; /* Green for good transactions */
+    text-transform: uppercase;
 }
 
 .content-table tbody tr.lose {
     color: #FF6347; /* Red for negative transactions */
+    text-transform: uppercase;
 }
 
 /* Center Content */
 .center {
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 /* Headings */
 h1, h2 {
     text-align: center;
     color: #ffffff; /* White for contrast */
-        padding: 0;
-    margin: 0;
 }
 
 /* Footer Styling */
