@@ -59,6 +59,8 @@ body {
 h1, h2 {
     text-align: center;
     color: #ffffff; /* White for contrast */
+        padding: 0;
+    margin: 0;
 }
 
 /* Footer Styling */
@@ -79,7 +81,8 @@ h1, h2 {
 /* Background Styling */
 .body {
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
-                url(slika1.jpg) no-repeat center center fixed;
+          
+                url(1582142953711.jpeg) no-repeat center center fixed;
     background-size: cover;
 }
 
